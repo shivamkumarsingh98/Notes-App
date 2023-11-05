@@ -128,7 +128,7 @@ function GroupSection() {
 
                         {selectedGroup ? (
                             <h2 className={Styles.header}>
-                                <button onClick={toggleVisibility}><FaArrowLeft /></button>
+                                <button onClick={toggleVisibility}><i className="fa-solid fa-arrow-left"></i></button>
                                 <label className={Styles.colorboxtwo}
                                     style={{ backgroundColor: selectedGroup.color }}>
                                     {selectedGroup.charAt(0).toUpperCase()}
