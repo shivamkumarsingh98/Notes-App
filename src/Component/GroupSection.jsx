@@ -181,7 +181,7 @@ function GroupSection() {
                             onRequestClose={closeModal}
                             inputValue={inputValue}
                             handleInputChange={handleInputChange}
-                            createGroup={(groupName) => createGroup(groupName, selectedColor)}
+                            createGroup={createGroup}
                             selectedColor={selectedColor}
                         />
                         <div className={Styles.contenar}>
